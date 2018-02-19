@@ -1,7 +1,5 @@
-import { GraphQLID } from 'graphql';
-
 const graphql = require('graphql');
-const { GraphQLObjectType } = graphql;
+const { GraphQLObjectType, GraphQLID } = graphql;
 
 const RootQueryType = new GraphQLObjectType({
   name: 'RootQueryType',
